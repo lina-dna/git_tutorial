@@ -1,6 +1,6 @@
 # git_tutorial
 
-## local workflow
+## main branch workflow
 
 ```
 1. remote repo 복제
@@ -26,4 +26,14 @@ git commit -m "modify readme"
 ```
 4. remote repo에 push하여 작업사항 반영
 git push
+```
+
+## other branch workflow
+```
+1. main branch로부터 branch 생성(여기서의 branch 이름은 dev)
+git checkout -b dev
+```
+
+```
+2. 생성된 local repo의 branch를 remote repo에 반영
 ```
