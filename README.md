@@ -38,3 +38,13 @@ git checkout -b dev
 2. 생성된 local repo의 branch를 remote repo에 반영
 git push --set-upstream origin dev
 ```
+
+```
+3. git add, commit, push를 통한 other branch 작업분 반영
+```
+
+```
+4. other branch의 내용을 합치고자 하는 branch로 이동, 이동 후 합치려는 branch 표기
+git checkout master
+git merge dev
+```
