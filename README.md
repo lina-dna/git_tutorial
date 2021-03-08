@@ -36,4 +36,5 @@ git checkout -b dev
 
 ```
 2. 생성된 local repo의 branch를 remote repo에 반영
+git push --set-upstream origin dev
 ```
